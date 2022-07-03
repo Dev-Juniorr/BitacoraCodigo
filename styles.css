@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 20%;
+  cursor: pointer;
+}
+
+header {
+  background-color: #fff;
+  /* background-color: #3C486A; */
+  color: #3c486a;
+  padding: 10px 0px 10px 80px;
+  box-shadow: 0px 2px 0px #00000008;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.nav > li {
+  float: right;
+}
+
+.nav li a {
+  background-color: rgb(243, 243, 243);
+  color: #3c486a;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: #ffe6d9;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #3c486a;
+}
+
+.info {
+  padding: 50px 30px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name_foto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name_foto img {
+  border-radius: 10px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.projects {
+  border-top: 1px solid #3c486a1e;
+  padding: 50px 80px 80px 80px;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+}
+
+.card {
+  border-radius: 10px;
+  margin-top: 20px;
+  background: aliceblue;
+  padding: 1em;
+  text-align: center;
+  width: 20%;
+  box-shadow: 2px 2px 2px #3c486a1b;
+}
+
+.card img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact {
+  border-top: 1px solid #3c486a25;
+  padding: 50px 80px 50px 80px;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  position: fixed;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  left: 0px;
+  bottom: -50px;
+  height: 30px;
+  width: 100%;
+  color: #fff;
+  background: #3c486a;
+  text-align: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+i {
+    font-size: 30px;
+    color: #3c486a;
+}
